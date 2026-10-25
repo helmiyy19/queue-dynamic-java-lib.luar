@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         DynamicQueue<String> antrean = new DynamicQueue<>();
         DynamicStack<String> keranjang = new DynamicStack<>();
@@ -22,7 +22,7 @@ public class Main {
             System.out.println("3. Scan barang      4. Cancel barang");
             System.out.println("5. Tambah stok      0. Keluar");
             System.out.print("Pilih: ");
-            String pilih = in.nextLine().trim();
+            String pilih = scanner.nextLine().trim();
 
             switch (pilih) {
                 case "1":

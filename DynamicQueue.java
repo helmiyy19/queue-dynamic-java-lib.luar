@@ -9,7 +9,7 @@ public class DynamicQueue<T> {
     }
 
     public T dequeue() {
-        return items.poll(); // keluar dari depan
+        return items.poll();
     }
 
     public boolean isEmpty() {
